@@ -28,13 +28,22 @@ opt1.2. "Does a specific correlation exist between beer styles and the range of 
 
 ## Methods
 
-**1. Data Cleaning and Preparation**
-* Merge
-* Preparing emotions and related words (table/dataset)
-  
+**1. Data Cleaning, Preparation and Preliminary Analysis**
+
+* Merging datasets and eliminating the ones without reviews **(check)**
+* list of feautures and their quantity
+* descriptive statistics - charts
+
+* Preparing emotions table and related words (table/dataset)
+
 **2. Determining Emotions of Reviews using NLP**
+
 * Analysis of the review dataset and visualization
+   - Calculating wordcount of each review and each beer
+   - Finding frequent n-grams(n=1,2,3) after removing the stopwords
+     
 * Semantic Similarity Estimation using SBERT or Spacy **?**
+  - The reviews paragraphs will be the inputs and a similarity score will be obtained calculated by the word list of each mood/emotion
 
 
 **3. Deciding a Mood/Emotion for Each Beer**
@@ -44,4 +53,11 @@ opt1.2. "Does a specific correlation exist between beer styles and the range of 
 * Gannt Chart?
   
 ## Organization within the team
+**A list of internal milestones**
++ Working on the analysis
+  - obtaining final results
+  - ensuring the quality of code and explanations
++ Coding the webpage
++ Writing the final report
 
++ Planning and monitoring the meetings
