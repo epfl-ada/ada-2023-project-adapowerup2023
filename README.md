@@ -11,7 +11,11 @@ File containing the detailed project proposal (up to 1000 words). Your README.md
 7. Organization within the team: A list of internal milestones up until project Milestone P3.
 8. Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
 
-# TITLE: 
+# TITLE: The Beer Mood Matcher
+**Alternatives:** 
+* The Emotional Brewer: Aligning Beers with Your State of Mind
+* Brewed Feelings: A Beer-to-Mood Experience / Crafting the Perfect Mood-Based Beer Experience
+
 ## Abstract (will be written lastly)
 
 ## Research Questions
@@ -21,3 +25,23 @@ opt1.1. "How do the characteristics of different beers align with the emotional 
   
 opt1.2. "Does a specific correlation exist between beer styles and the range of emotions identified in consumer reviews?"
 - more specific, narrowing the focus to the styles of beer (like IPA, stout, lager, etc.) and examining whether these styles have a distinct relationship with the emotions reviewers express.
+
+## Methods
+
+**1. Data Cleaning and Preparation**
+* Merge
+* Preparing emotions and related words (table/dataset)
+  
+**2. Determining Emotions of Reviews using NLP**
+* Analysis of the review dataset and visualization
+* Semantic Similarity Estimation using SBERT or Spacy **?**
+
+
+**3. Deciding a Mood/Emotion for Each Beer**
+
+
+## Proposed timeline
+* Gannt Chart?
+  
+## Organization within the team
+
