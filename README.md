@@ -27,12 +27,12 @@ opt1.2. "Does a specific correlation exist between beer styles and the range of 
 - more specific, narrowing the focus to the styles of beer (like IPA, stout, lager, etc.) and examining whether these styles have a distinct relationship with the emotions reviewers express.
 
 optional related subquestions
-What kinds of moods do the best-selling beers tend to match?
-In what moods do users tend to write comments?
-Is there any relationship between the mood corresponding to beer and its rating?
-Are the moods people perceive toward a certain beer consistent, or are there multiple differences?
-Are there any regional distribution characteristics of users’ moods towards beer?
-“What is the perfect beer for any mood?”
+- What kinds of moods do the best-selling beers tend to match?
+- In what moods do users tend to write comments?
+- Is there any relationship between the mood corresponding to beer and its rating?
+- Are the moods people perceive toward a certain beer consistent, or are there multiple differences?
+- Are there any regional distribution characteristics of users’ moods towards beer?
+- “What is the perfect beer for any mood?”
 
 
 ## Methods
