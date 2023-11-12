@@ -30,13 +30,16 @@ opt1.2. "Does a specific correlation exist between beer styles and the range of 
 
 **1. Data Cleaning, Preparation and Preliminary Analysis**
 
+1.1. Preprocessing the main dataset
 * Merging datasets and eliminating the ones without reviews **(check)**
-* list of feautures and their quantity
-* descriptive statistics - charts
+* list of features and their quantity
+* descriptive statistics - charts (10 
 
-* Preparing emotions table and related words (table/dataset)
+1.2. Preparing emotions table and related words (table/dataset)
+
 
 **2. Determining Emotions of Reviews using NLP**
+
 
 * Analysis of the review dataset and visualization
    - Calculating wordcount of each review and each beer
