@@ -19,7 +19,7 @@ File containing the detailed project proposal (up to 1000 words). Your README.md
 ## Abstract (will be written lastly)
 
 ## Research Questions
-opt1.1. "How do the characteristics of different beers align with the emotional tones identified in reviews?"
+opt1.1. "How do the characteristics of different beers align with the moods identified in reviews?"
 - more broad, we can focus on both characteristics (flavor, aroma, color, etc) and types of the reviews.
 - consider how to have one characteristic for one beer or should we analyze each review separately?
   
