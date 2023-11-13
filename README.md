@@ -70,6 +70,19 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 
 ### 4. Methods for the Results Section
 
+#### 4.1. Analysis for Reviews' Emotion Scores
+
+#### 4.2. Analysis for Beers' Emotion Scores
+
+#### 4.2. Final Analysis Comparing Mood of the Beer Styles and
+
+### 5. Concluding the Project by the Recommandations for Different Moods
+   * The negative emotions will be eliminated for the final recommandation list since we would not want to recommend any beer in those moods
+   * We will provide a list of beer styles and a their moods matched according to the methodology above of mapped emotions
+   * If there are many beer styles appointed to a particular mood, the highest rated ones on avarage will be recommended firstly.
+
+For abstract?:
+To sum up, we will have scores of emotions for each beer and then a mood for each beer style will be explained according to the emotion map.
 
 ## Proposed timeline
 * Gannt Chart?
