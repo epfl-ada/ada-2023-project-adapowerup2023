@@ -42,16 +42,16 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 * Merging datasets
 * Eliminating the ones without reviews **(check)** (lowest %20)
 * Descriptive statistics: List of features and their quantity
-* Visualization of the dataset by charts to better understand our data
-* Selection of feautures
+* Selection of feautures - Eliminating some parts of the dataset
+#### 1.2. Visualization of the dataset by charts to better understand our data
 
-#### 1.2. Data Cleaning for textual data
+#### 1.3. Preprocessing the textual review data
 * Analysis of the review dataset and visualization
   - Stemming, lemmitization, stopword removal (NLTK library)
   - Calculating wordcount of each review and each beer
   - Visualizing the most frequent n-grams (n=1,2,3)
 
-#### 1.3. Preparing emotions table and related words
+#### 1.4. Preparing emotions table and related words
 - As mentioned in the additional information part above, we will use the list and we will use the wordlist above for the future work in the semantic similarity part.
 
 ### 2. Emotion Detection using Natural Language Processing 
