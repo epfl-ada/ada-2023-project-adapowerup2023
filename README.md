@@ -21,7 +21,9 @@ File containing the detailed project proposal (up to 1000 words).
     * What is the perfect beer for any mood?
 
 ## Additional Information
-### Deciding on emotions and mapping the scores
+### Deciding on emotion list and map
+The list of emotions in the list below will be used to score the reviews under these headings. It is selected by analyzing the researchs of emotion detection, and these emotions are found to be the main headings of emotions.
+
 After applying Text-Based Emotion Detection (TBED)[^1], emotion scores of the beer styles will be mapped to a mood according to the research [^2]
 
 ![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/4783bb5a-33d8-48c4-ad01-cfd266eae77a)
@@ -60,7 +62,10 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 
   - The reviews paragraphs will be the inputs and a similarity score will be obtained calculated by the word list of each mood/emotion
   - A model in SBert will be applied and determination of the model **(manual reading explain)**
-  - 
+    SentenceTransformers[^3] will be implemented
+
+    [^3]: Reimers, N., & Gurevych, I. (2019). Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084.
+    https://www.sbert.net/
 #### 2.2. for beers
 
 ### 3. Determining a Mood for Each Beer Style
