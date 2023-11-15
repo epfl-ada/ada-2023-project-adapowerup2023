@@ -75,7 +75,7 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 Based on the mood vector of each beer style, we will map the styles to the mood board to label every beer style with a most representative mood.
 (Create a mood board with corresponding beer styles labels on the map)
 
-![image] (https://github.com/epfl-ada/ada-2023-project-adapowerup2023/blob/main/Plutchik-wheel.svg)
+![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/blob/main/Plutchik-wheel.svg)
 
 ### 4. Methods for the Results Section
 
