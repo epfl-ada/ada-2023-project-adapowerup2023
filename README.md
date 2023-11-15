@@ -76,6 +76,17 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 ### 4. Methods for the Results Section
 
 #### 4.1. Analysis for Reviews' Emotion Scores
+Based on the emotion scores, we can study further on the relationship between mood and other potential variables, for example, there might be some regional distribution patterns of user’s mood towards beer. Besides, we can relate mood to beer characteristics and test the correlation of them, to explore whether beer’s appearance, aroma, or taste would influence drinker’s mood?
+
+- Regional distribution of reviews’ moods
+   - Create a geographical heat map or histogram to visualize the emotion scores for different regions, to show the regional distribution of moods. 
+   - Perform statistical tests, such as t-tests or ANOVA, to compare whether there are significant differences in emotion scores across regions. 
+   - Try to explain the regional differences in moods from aspects such as cultural background, environment, climate, etc.
+
+- Correlation between mood and beer’s characteristics (appearance, aroma, taste)
+   - Create a scatter plot to show the relationship between different beer characteristic scores and emotion scores.
+   - Perform hypothetical tests to test the correlation between mood and different beer characteristics. 
+   - Use correlation analysis such as Pearson's correlation coefficient to quantify the linear relationship between them. If there is a linear correlation, use linear regression to fit the model.
 
 #### 4.2. Analysis for Beers' Emotion Scores
 
