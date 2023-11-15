@@ -89,7 +89,7 @@ Based on the emotion scores, we can study further on the relationship between mo
    - Use correlation analysis such as Pearson's correlation coefficient to quantify the linear relationship between them. If there is a linear correlation, use linear regression to fit the model.
 
 #### 4.2. Analysis for Beers' Emotion Scores
-For different beers, there could be interesting study on the potential relationship between mood and some beer attributes. Normally, users are expected to review a beer with positive emotions when they like it, that is, when the rating is high. Therefore, we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. Moreover, drunkenness usually leads to mood swings. So do we get anger after getting high, or feel really relaxed? We will study the correlations between mood and ABV to find the answer.
+For different beers, there could be interesting study on the potential relationship between mood and some beer attributes. Normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. Moreover, drunkenness usually leads to mood swings, so do we get anger after getting high, or feel really relaxed? We will study the correlations between mood and ABV to find the answer.
 
 - Correlation between mood and beer ratings
    - Create a scatter plot to show the relationship between the emotion scores of different beers and their ratings.
