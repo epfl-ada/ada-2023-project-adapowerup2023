@@ -72,6 +72,9 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 #### 3.1. Obtaining a vector for each beer style
 
 #### 3.2. Mapping the Styles to the Mood Board
+Based on the mood vector of each beer style, we will map the styles to the mood board to label every beer style with a most representative mood.
+(Create a mood board with corresponding beer styles labels on the map)
+
 
 ### 4. Methods for the Results Section
 
