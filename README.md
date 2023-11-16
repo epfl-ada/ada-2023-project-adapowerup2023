@@ -14,14 +14,12 @@
     * What is the perfect beer for any mood?
 
 ## Additional Information
-### Deciding on emotion list and map
-The list of emotions in the list below will be used to score the reviews under these headings. It is selected by analyzing the researchs of emotion detection, and these emotions are found to be the main headings of emotions.
-
-After applying Text-Based Emotion Detection (TBED)[^1], emotion scores of the beer styles will be mapped to a mood according to the research [^2]
-
+### Selection of Emotions for Review Analysis
+The primary emotions listed in Figure 1 below will be used to score the reviews. It is selected by analyzing the literature of emotion detection, and these emotions are found to be the main headings of emotions known as Parrot's emotion model.
 ![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/4783bb5a-33d8-48c4-ad01-cfd266eae77a)
+Figure 1:  Parrot’s emotions model [^1]
 
-* **Explain** the Hourglass model of emotions is shown in Fig. 3b, and consists of 20 categories (half positive and half negative) in four independent dimensions 
+After applying text-based emotion detection, we will use an emotion map to obtain the moods of the beer styles[^2]
 
 [^1]: S. Zad, M. Heidari, J. H. J. Jones and O. Uzuner, "Emotion Detection of Textual Data: An Interdisciplinary Survey," 2021 IEEE World AI IoT Congress (AIIoT), Seattle, WA, USA, 2021, pp. 0255-0261, 
 doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/document/9454192
@@ -108,13 +106,12 @@ To sum up, we will have scores of emotions for each beer and then a mood for eac
 ![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/f9e72abb-0255-4cd5-8870-b4c77fe54726)
   
 ## Organization within the team
-**A list of internal milestones**
 
-| Milestones | Nil | Yiwei | Yunong | Victor | Zimu | 
-|--- | --- | --- | --- | --- | --- |
-| `Obtaining Semantic Similarity Scores of Reviews` |  |  |  |  |  |
-| `Working on the Emotion Map`                      |  |  |  |  |  |
-| `Analysis of the Results`                         |  |  |  |  |  |
-| `Coding the webpage`                              |  |  |  |  |  |
-| `Data Story`                                      |  |  |  |  |  |
+| Team Member | Role |
+|--- | --- |
+|Yiwei | NLP for emotions + |
+|Yunong | 	|
+|Victor| |
+|Zimu| Analysis of the Results + |
+|Nil | NLP for emotions + Data Story |
 
