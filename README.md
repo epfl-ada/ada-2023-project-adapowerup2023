@@ -66,29 +66,23 @@ Based on the emotion vector of each beer style, we will map the styles onto mood
 ### 4. Methods for the Results Section
 
 #### 4.1. Analysis for Reviews' Emotion Scores
-Based on the emotion scores, we can study further on the relationship between mood and other potential variables, for example, there might be some regional distribution patterns of user’s mood towards beer. Besides, we can relate mood to beer characteristics and test the correlation of them, to explore whether beer’s appearance, aroma, or taste would influence drinker’s mood.
+Based on the emotion scores, we can further study on the relationship between mood and other potential variables, for example, there might be some regional distribution patterns of user’s mood towards beer. Besides, we can relate mood to beer characteristics and test the correlation of them, to explore whether beer’s appearance, aroma, or taste would influence drinker’s mood.
 
 - Regional distribution of reviews’ moods
-   - Creation of a geographical heat map or histogram to visualize the emotion scores for different regions, to show the regional distribution of moods. 
+   - Creation of a geographical heat map or histogram to visualize the emotion scores for different regions 
    - Performing statistical tests, such as t-tests or ANOVA, to compare whether there are significant differences in emotion scores across regions.
 
 - Correlation between mood and beer’s characteristics (appearance, aroma, taste)
    - Creating a scatter plot to show the relationship between different beer characteristic scores and emotion scores.
-   - Performing hypothetical tests to test the correlation between mood and different beer characteristics. 
    - Using correlation analysis such as Pearson's correlation coefficient to quantify the linear relationship between them. If there is a linear correlation, use linear regression to fit the model.
 
 #### 4.2. Analysis for Beers' Emotion Scores
-For different beers, there could be interesting study on the potential relationship between mood and some beer attributes. As some examples; normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. Moreover, drunkenness usually leads to mood swings, so do we get anger after getting high, or feel really relaxed? We will study the correlations between mood and ABV to find the answer.
+For different beers, there could be interesting study on the potential relationship between mood and some beer attributes.
 
-- Correlation between mood and beer ratings
-   - Creating a scatter plot to show the relationship between the emotion scores of different beers and their ratings.
-   - Applying statistical tests to further understand the correlation between mood and beer ratings, perform correlation analysis to quantify the linear relationship between them, and if there is a linear correlation, use linear regression to fit the model.
-   - Discovering the moods corresponding to the top-rated beers, then there could be some marketing strategy for brewers, for example, creating an atmosphere with a related “top-rated mood” when marketing the beer.
+As some examples; normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. By applying the methods explained in 4.1. we can calculate **correlation between mood and beer ratings** and discover the moods corresponding to the top-rated beers, then there could be some marketing strategy for brewers, for example, creating an atmosphere with a related “top-rated mood” when marketing the beer.
+
+Moreover, drunkenness usually leads to mood swings, so do we get anger after getting high, or feel really relaxed? We will study the **correlation between mood and ABV** to find the answer.
  
-- Correlation between mood and ABV
-   - Creating scatter plots to show the relationship between the emotion scores of different beers and their ABV.
-   - Performing correlation analysis to try to quantify the linear relationship between them, and apply statistical tests to further understand the correlation between mood and beer concentration.
-
      
 ### 5. Concluding the Project by the Recommandations for Different Moods
    * The negative emotions will be eliminated for the final recommandation list since we would not want to recommend any beer in those moods.
