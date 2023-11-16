@@ -1,12 +1,5 @@
 # ada-2023-project-adapowerup2023
 
-File containing the detailed project proposal (up to 1000 words).
-4. Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
-5. Methods
-6. Proposed timeline
-7. Organization within the team: A list of internal milestones up until project Milestone P3.
-8. Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
-
 # The Beer Mood Matcher
 
 ## Abstract (will be written lastly- A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?)
@@ -33,8 +26,6 @@ After applying Text-Based Emotion Detection (TBED)[^1], emotion scores of the be
 [^1]: S. Zad, M. Heidari, J. H. J. Jones and O. Uzuner, "Emotion Detection of Textual Data: An Interdisciplinary Survey," 2021 IEEE World AI IoT Congress (AIIoT), Seattle, WA, USA, 2021, pp. 0255-0261, 
 doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/document/9454192
 [^2]: E. Cambria, A. Livingstone and A. Hussain, "The hourglass of emotions" in Cognitive behavioural systems, Springer, pp. 144-157, 2012.
-
-<!-- Polish all -->
 
 ## Methodology
 
@@ -113,14 +104,17 @@ For abstract?:
 To sum up, we will have scores of emotions for each beer and then a mood for each beer style will be explained according to the emotion map.
 
 ## Proposed timeline
-* Gannt Chart?
+
+![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/f9e72abb-0255-4cd5-8870-b4c77fe54726)
   
 ## Organization within the team
 **A list of internal milestones**
-+ Working on the analysis
-  - obtaining final results
-  - ensuring the quality of code and explanations
-+ Coding the webpage
-+ Writing the final report and conclusion
 
-+ Planning and monitoring the meetings
+| Milestones | Nil | Yiwei | Yunong | Victor | Zimu | 
+|--- | --- | --- | --- | --- | --- |
+| `Obtaining Semantic Similarity Scores of Reviews` |  |  |  |  |  |
+| `Working on the Emotion Map`                      |  |  |  |  |  |
+| `Analysis of the Results`                         |  |  |  |  |  |
+| `Coding the webpage`                              |  |  |  |  |  |
+| `Data Story`                                      |  |  |  |  |  |
+
