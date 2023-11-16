@@ -1,9 +1,8 @@
-# ada-2023-project-adapowerup2023
-
 # The Beer Mood Matcher
 
 ## Abstract
-Our daily decisions tend to be influenced by our mood, and this concept is applied to beer selection. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. We will analyze and score reviews using advanced Natural Language Processing techniques, specifically Sentence-Bert, based on primary emotions including joy, sadness, anger, fear, love, and surprise. Furthermore, we will determine the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews which can be beneficial for the marketing industry. In the last part of the study, based on the mapped emotion score we will create a mood-based recommendation of beer styles.
+
+Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, it's possible to find the perfect beer matching our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews will be analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we will determine the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews which can be beneficial for the marketing industry. Moreover, we will examine the connections between the emotions users exhibit while writing reviews and the various ratings they give. Finally, mood-based recommendation list of beer styles will be created based on the mapped emotion scores.
 
 ## Research Questions
 - How do the characteristics of different beers align with the moods identified in reviews?
