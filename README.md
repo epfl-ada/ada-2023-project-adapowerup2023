@@ -91,15 +91,15 @@ Moreover, drunkenness usually leads to mood swings, so do we get anger after get
 
 ## Proposed timeline
 
-![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/f9e72abb-0255-4cd5-8870-b4c77fe54726)
+![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/3412cb0c-8095-49e0-a852-1de139946a31)
   
 ## Organization within the team
 
-| Team Member | Role |
+| Team Member | Roles |
 |--- | --- |
-|Yiwei | NLP for emotions + |
-|Yunong | 	|
-|Victor| |
-|Zimu| Analysis of the Results + |
-|Nil | NLP for emotions + Data Story |
+|Yiwei| NLP + Webpage|
+|Yunlong| Analysis of the Results + Webpage|
+|Victor| Mood Map + Data Story|
+|Zimu| Analysis of the Results + Data Story |
+|Nil| NLP + Mood Map + Data Story|
 
