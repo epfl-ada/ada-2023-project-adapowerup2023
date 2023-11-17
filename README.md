@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, it's possible to find the perfect beer matching our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews will be analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we will determine the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews which can be beneficial for the marketing industry. Moreover, we will examine the connections between the emotions users exhibit while writing reviews and the various ratings they give. Finally, mood-based recommendation list of beer styles will be created based on the mapped emotion scores.
+Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, it's possible to find the perfect beer, matching our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews will be analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we will determine the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews which can be beneficial for the marketing industry. Moreover, we will examine the connections between the emotions users exhibit while writing reviews and the various ratings they give. Finally, mood-based recommendation list of beer styles will be created based on the mapped emotion scores.
 
 ## Research Questions
 - How do the characteristics of different beers align with the moods identified in reviews?
@@ -32,7 +32,7 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 ### 1. Data Cleaning, Preparation and Preliminary Analysis
 
 #### 1.1. Preprocessing the main datasets
-* Working on two different dataset of different websites: BeerAdvocate and RateBeer
+* Working on two different datasets of different websites: BeerAdvocate and RateBeer
 * Excluding beers with a minimal number of reviews to have a more represantative data.
 * Descriptive statistics: List of features and their quantity
 
