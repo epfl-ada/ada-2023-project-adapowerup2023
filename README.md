@@ -8,7 +8,7 @@ Every beer tells a story, evoking a spectrum of emotions in its drinker. By delv
 - How do the characteristics of different beers align with the moods identified in reviews?
     * In what moods do users tend to write comments?
     * Does a specific correlation exist between beer styles and the range of emotions identified in consumer reviews?
-    * Is there a pattern between higher-rated beers and positively=scored reviews?
+    * Is there a pattern between higher-rated beers and reviews scored higher by positive emotions ?
     * What kinds of moods do the best-selling beers tend to match?
     * Are there any regional distribution characteristics of users’ moods towards beer?
     * What is the perfect beer for any mood?
