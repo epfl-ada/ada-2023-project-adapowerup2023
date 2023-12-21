@@ -2,20 +2,20 @@
 
 ## Abstract
 
-Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, we can find the perfect beer, matches our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews are analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we will determine the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews, which can benefit the marketing industry. Moreover, the connections between the emotions users exhibit while writing reviews and their various ratings are examined. Finally, a mood-based recommendation list of beer styles is created based on the mapped emotion scores.
+Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, we can find the perfect beer, matches our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews are analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we have determined the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews, which can benefit the marketing industry. Moreover, the connections between the emotions users exhibit while writing reviews and their various ratings are examined. Finally, a mood-based recommendation list of beer styles is created based on the mapped emotion scores.
 
 ## Research Questions
 - How do the characteristics of different beers align with the moods identified in reviews?
     * In what moods do users tend to write comments?
     * Does a specific correlation exist between beer styles and the range of emotions identified in consumer reviews?
     * Is there a pattern between higher-rated beers and reviews scored higher by positive emotions ?
-    * What kinds of moods do the best-selling beers tend to match?
+    * What kinds of moods do the most-popular beers tend to match?
     * Are there any regional distribution characteristics of users’ moods towards beer?
     * What is the perfect beer for any mood?
 
 ## Additional Information
 ### Selection of Emotions for Review Analysis
-The primary emotions listed in Figure 1 below will be used to score the reviews. It is selected by analyzing the literature of emotion detection, and these emotions are found to be the main headings of emotions known as Parrot's emotion model.
+The primary emotions listed in Figure 1 below is used to score the reviews. It is selected by analyzing the literature of emotion detection, and these emotions are found to be the main headings of emotions known as Parrot's emotion model.
 
 ![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/4783bb5a-33d8-48c4-ad01-cfd266eae77a)
 
@@ -49,35 +49,35 @@ doi: 10.1109/AIIoT52608.2021.9454192. https://ieeexplore.ieee.org/abstract/docum
 
 #### 2.1. Implementing Semantic Similarity Estimation for Review Scoring
 
-  - Inputs will be review paragraphs, and similarity scores will be calculated based on a designated word list for each emotion, using the SentenceTransformers framework within an SBert model [^3].
+  - Inputs are review paragraphs, and similarity scores is calculated based on a designated word list for each emotion, using the SentenceTransformers framework within an SBert model [^3].
 
     [^3]: Reimers, N., & Gurevych, I. (2019). Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084. https://www.sbert.net/
     
 #### 2.2. Scoring the Emotions of Beers
-* By averaging the scores from reviews for the same beer, we will generate a list of average scores across six emotions for each type of beer.
+* By averaging the scores from reviews for the same beer, we have generated a list of average scores across six emotions for each type of beer.
 
 ### 3. Determining a Mood for Each Beer Style
 #### 3.1. Obtaining an Emotion Vector for Each Beer Style
-* We will obtain a vector of 6 emotions by averaging the scores of all beers under the same style.
+* A vector of 6 emotions are obrained by averaging the scores of all beers under the same style.
   
 #### 3.2. Mapping the Styles to the Mood Board
-Based on the emotion vector of each beer style, we will map the styles onto mood board, assigning the most representative mood to each beer style.  
+Based on high and low emotions of each beer style, assigning the most representative mood to each beer style is assigned.  
 
 ### 4. Methods for the Results Section
 
 #### 4.1. Analysis for Reviews' Emotion Scores
-Based on the emotion scores, we can further study on the relationship between mood and other potential variables, for example, there might be some regional distribution patterns of user’s mood towards beer. Besides, we can relate mood to beer characteristics and test the correlation of them, to explore whether beer’s appearance, aroma, or taste would influence drinker’s mood.
+Based on the emotion scores, the relationship between mood and other potential variables are further analyzed, for example, there might be some regional distribution patterns of user’s mood towards beer. Besides, we have related mood to beer characteristics and test the correlation of them, to explore whether beer’s appearance, aroma, or taste would influence drinker’s mood.
 
-- Regional distribution of reviews’ moods
+- Regional distribution of reviews’ emotions
    - Creation of a geographical heat map or histogram to visualize the emotion scores for different regions 
    - Performing statistical tests, such as t-tests or ANOVA, to compare whether there are significant differences in emotion scores across regions.
 
-- Correlation between mood and beer’s characteristics (appearance, aroma, taste)
+- Correlation between emotion and beer’s characteristics (appearance, aroma, taste)
    - Creating a scatter plot to show the relationship between different beer characteristic scores and emotion scores.
    - Using correlation analysis such as Pearson's correlation coefficient to quantify the linear relationship between them. If there is a linear correlation, use linear regression to fit the model.
 
 #### 4.2. Analysis for Beers' Emotion Scores
-For different beers, there could be interesting study on the potential relationship between mood and some beer attributes.
+For different beers, there could be interesting study on the potential relationship between emotions and some beer attributes.
 
 As some examples; normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. By applying the methods explained in 4.1. we can calculate **correlation between mood and beer ratings** and discover the moods corresponding to the top-rated beers, then there could be some marketing strategy for brewers, for example, creating an atmosphere with a related “top-rated mood” when marketing the beer.
 
