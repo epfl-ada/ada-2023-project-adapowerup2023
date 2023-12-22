@@ -79,9 +79,9 @@ Based on the emotion scores, the relationship between mood and other potential v
 #### 4.2. Analysis for Beers' Emotion Scores
 For different beers, there could be interesting study on the potential relationship between emotions and some beer attributes.
 
-As some examples; normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between mood and beer ratings, then try to discover the “top-rated moods”. By applying the methods explained in 4.1. we can calculate **correlation between mood and beer ratings** and discover the moods corresponding to the top-rated beers, then there could be some marketing strategy for brewers, for example, creating an atmosphere with a related “top-rated mood” when marketing the beer.
+As some examples; normally, users are expected to review a beer with positive emotions when they give high ratings, so we will explore the correlation between emotion and beer ratings, then try to discover the “top-rated moods”. By applying the methods explained in 4.1. we can calculate **correlation between emotions and beer ratings** and discover the emotions corresponding to the top-rated beers, then there could be some marketing strategy for brewers, for example, creating an atmosphere with a related “top-rated mood” when marketing the beer.
 
-Moreover, drunkenness usually leads to mood swings, so do we get anger after getting high, or feel really relaxed? We will study the **correlation between mood and ABV** to find the answer.
+Moreover, drunkenness usually leads to mood swings, so do we get anger after getting high, or feel really relaxed? We will study the **correlation between emotions and ABV** to find the answer.
  
      
 ### 5. Concluding the Project by the Recommandations for Different Moods
