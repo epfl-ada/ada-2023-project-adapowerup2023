@@ -90,8 +90,7 @@ Moreover, drunkenness usually leads to mood swings, so do we get anger after get
 ### 5. Concluding the Project by the Recommandations for Different Moods
    * The negative emotions will be eliminated for the final recommandation list since we would not want to recommend any beer in those moods.
    * We will provide a list of beer styles and a their moods matched according to the methodology above of mapped emotions.
-   * If there are many beer styles appointed to a particular mood, the highest rated ones on average will be recommended firstly.
-
+     
 ## Proposed timeline
 
 ![image](https://github.com/epfl-ada/ada-2023-project-adapowerup2023/assets/80288512/3412cb0c-8095-49e0-a852-1de139946a31)
