@@ -1,5 +1,8 @@
 # The Beer Mood Matcher
 
+## Datastory 
+Explore our website to discover the perfect beer that aligns with your mood: [Datastory of The Beer Mood Matcher](https://sites.google.com/view/beermatcher/)
+
 ## Abstract
 
 Every beer tells a story, evoking a spectrum of emotions in its drinker. By delving into the rich textual content of the reviews, we can find the perfect beer, matches our desired mood. Our research is focused on determining how different beers relate to various moods expressed in reviews on popular platforms of BeerAdvocate and RateBeer. Reviews are analyzed and scored based on primary emotions including joy, sadness, anger, fear, love, and surprise, applying NLP techniques, specifically Sentence-Bert for semantic similarity detection. Furthermore, we have determined the relationship between the characteristics of various beers and the moods they evoke, as identified in user reviews, which can benefit the marketing industry. Moreover, the connections between the emotions users exhibit while writing reviews and their various ratings are examined. Finally, a mood-based recommendation list of beer styles is created based on the mapped emotion scores.
